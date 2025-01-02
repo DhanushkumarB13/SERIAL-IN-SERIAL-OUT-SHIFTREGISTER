@@ -27,7 +27,7 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 
 # Procedure
 
-/* write all the steps invloved */
+Serial-In Serial-Out (SISO) shift register is a sequential logic circuit used for temporary data storage and transfer. It shifts binary data serially, one bit at a time, through a series of flip-flops connected in sequence. Each flip-flop represents one bit of storage, and the number of flip-flops determines the register's capacity. The SISO operation begins with a clock signal synchronizing data movement. On each clock pulse, the input bit is fed into the first flip-flop, and the existing bits are shifted one position towards the output. This continues until the data is completely transferred or shifted out. SISO shift registers are commonly used in data serialization, where parallel data is converted into a serial stream for transmission, or in time-delay circuits. They offer simplicity in design but are slower compared to parallel methods, as data transfer requires multiple clock cycles
 
 # PROGRAM
 ![0fe8505d-994d-4582-9573-9ff85d2534a9](https://github.com/user-attachments/assets/d12403e6-df7a-45f3-95c6-f2c1916accc0)
